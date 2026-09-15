@@ -1,0 +1,91 @@
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-display_regular.woff2);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: apple;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#main{
+    height: 900px;
+    width:100% ;
+    background-color: #000000;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background-color: #1D1D1F;
+   
+   
+   
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 100;
+}
+
+#nav i{
+    color: white;
+}
+
+
+#txt{
+    color: white;
+    text-align: center;
+    padding: 120px;
+    
+}
+
+#txt h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#txt h5{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#txt p{
+    padding: 10px;
+    color: #5A5A5E;
+    font-size: 20px;
+}
+
+#txt button{
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: royalblue;
+    color: whitesmoke;
+}
+
+#img{
+    background-image: url(hero_iphone_18_pro_preorder__dd68unjbzswi_mediumtall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45%;
+   
+}
+
